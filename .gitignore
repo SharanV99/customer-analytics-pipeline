@@ -2,3 +2,6 @@ venv/
 *.duckdb
 data/*.csv
 data/*.xlsx
+.DS_Store
+.Rhistory
+data/
