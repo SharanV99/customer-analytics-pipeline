@@ -56,12 +56,14 @@ Nearly half the base has gone quiet. 2,792 customers (about 47%) fall into Lost 
 At Risk is the win-back target. 430 customers with £1,217 average spend and declining recency — recent enough to re-engage, valuable enough to be worth it.
 
 ## Project Structure
+```
 customer-analytics-pipeline/
 ├── data/                  # raw dataset (not committed)
 ├── retail_dbt/            # dbt project (models: staging + marts)
 ├── app/dashboard.py       # Streamlit dashboard
 ├── requirements.txt
 └── README.md
+```
 
 ## Setup & Run
 1. Create and activate a virtual environment:
