@@ -1,0 +1,31 @@
+[0m13:57:45.430127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e8b130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109e2f2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109e2f610>]}
+
+
+============================== 13:57:45.432890 | 3dbbef55-09f1-401b-956c-832d94e787a6 ==============================
+[0m13:57:45.432890 [info ] [MainThread]: Running with dbt=1.10.22
+[0m13:57:45.433215 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'log_format': 'default', 'partial_parse': 'True', 'warn_error': 'None', 'static_parser': 'True', 'debug': 'False', 'log_path': 'logs', 'quiet': 'False', 'empty': 'None', 'target_path': 'None', 'use_colors': 'True', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'write_json': 'True', 'profiles_dir': '/Users/sharanvenkatesh/.dbt', 'version_check': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt init retail_dbt', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:45.441530 [info ] [MainThread]: Creating dbt configuration folder at /Users/sharanvenkatesh/.dbt
+[0m13:57:45.442550 [debug] [MainThread]: Starter project path: /Users/sharanvenkatesh/Desktop/Projects/customer-analytics-pipeline/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m13:57:45.446767 [info ] [MainThread]: 
+Your new dbt project "retail_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:57:45.447050 [info ] [MainThread]: Setting up your profile.
+[0m13:57:53.428620 [info ] [MainThread]: Profile retail_dbt written to /Users/sharanvenkatesh/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m13:57:53.455183 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 8.080153, "process_in_blocks": "0", "process_kernel_time": 0.263177, "process_mem_max_rss": "141328384", "process_out_blocks": "0", "process_user_time": 1.758937}
+[0m13:57:53.455484 [debug] [MainThread]: Command `dbt init` succeeded at 13:57:53.455420 after 8.08 seconds
+[0m13:57:53.455696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e8b130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109ebbe20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109e22fa0>]}
+[0m13:57:53.455925 [debug] [MainThread]: Flushing usage events
+[0m13:57:53.747260 [debug] [MainThread]: An error was encountered while trying to flush usage events

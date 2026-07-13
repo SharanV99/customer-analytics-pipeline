@@ -1,0 +1,7 @@
+dbt-duckdb
+duckdb
+pandas
+streamlit
+altair
+matplotlib
+jupyter
