@@ -5,6 +5,8 @@ Raw transaction data is cleaned and transformed through a layered dbt pipeline, 
 for customer value segments and retention behavior, and presented in an interactive
 Streamlit dashboard.
 
+![Dashboard](images/dashboard.png)
+
 **Stack:** DuckDB (warehouse) · dbt (transformation) · Python/pandas · Streamlit · Altair
 
 ---
@@ -49,7 +51,9 @@ a segment breakdown, and a retention heatmap.
      - At Risk: 430 customers, £1,217 avg spend, declining recency (win-back target)
      - Retention: 100% month 0 → ~20-35% month 1, then a stable core out to ~12 months -->
 
-_[Your findings go here]_
+Champions drive most of the revenue. They're 1,544 customers (26% of the base) but account for £12.4M of £17.7M total revenue — roughly 70% of revenue from about a quarter of customers.
+Nearly half the base has gone quiet. 2,792 customers (about 47%) fall into Lost / Hibernating, contributing only £1.9M (~11%) of revenue at £688 average spend.
+At Risk is the win-back target. 430 customers with £1,217 average spend and declining recency — recent enough to re-engage, valuable enough to be worth it.
 
 ## Project Structure
 customer-analytics-pipeline/
